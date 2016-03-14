@@ -6,7 +6,7 @@
  * @date 2016年3月10日 下午10:42:07 
  * @version V1.0   
  */
-package com.yc.pattern;
+package com.yc.pattern.builder;
 
 /**
  * @ClassName: NutritionFacts
