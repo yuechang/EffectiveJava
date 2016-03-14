@@ -67,6 +67,7 @@ public class NutritionFacts {
 		}
 	}
 
+	
 	private NutritionFacts(Builder builder) {
 
 		this.servingSize = builder.servingSize;
