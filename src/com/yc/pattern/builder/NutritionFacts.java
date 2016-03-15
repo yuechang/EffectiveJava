@@ -1,16 +1,12 @@
-/**   
- * @Title: NutritionFacts.java 
- * @Package com.yc.pattern 
- * @Description: TODO(用一句话描述该文件做什么) 
- * @author yuechang yuechang@primeton.com
- * @date 2016年3月10日 下午10:42:07 
- * @version V1.0   
+/*!
+ * Copyright(c) 2016 Yuechang
+ * MIT Licensed
  */
 package com.yc.pattern.builder;
 
 /**
  * @ClassName: NutritionFacts
- * @Description: TODO(这里用一句话描述这个类的作用)
+ * @Description: 营养成分类-建造者设计模式
  * @author yuechang yuechang@primeton.com
  * @date 2016年3月10日 下午10:42:07
  * 
