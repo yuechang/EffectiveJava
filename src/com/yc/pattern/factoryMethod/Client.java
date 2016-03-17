@@ -9,7 +9,7 @@ package com.yc.pattern.factoryMethod;
  * @Description: TODO(这里用一句话描述这个类的作用) 
  * @author yuechang yuechang@primeton.com 
  * @date 2016年3月16日 下午10:54:49 
- *  
+ *   
  */
 public class Client {
 
