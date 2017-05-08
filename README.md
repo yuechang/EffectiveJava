@@ -1,2 +1,2 @@
-# EffectiveJava
-EffectiveJava
+# DesignPatterns
+DesignPatterns
