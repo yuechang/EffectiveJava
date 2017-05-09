@@ -25,8 +25,8 @@
 package com.yc.pattern.strategy;
 
 /**
-* @ClassName: MiniDuckSimulator
-* @Description: TODO(这里用一句话描述这个类的作用)
+* @ClassName: Test
+* @Description: 测试
 * @author Yue Chang 
 * @date 2017年5月8日 下午5:11:31 
 * @since 1.0
