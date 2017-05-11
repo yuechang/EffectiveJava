@@ -40,9 +40,17 @@ public class Test {
 		RedHeadDuck redHeadDuck = new RedHeadDuck(flyWithWings,quack);
 		redHeadDuck.fly();
 		redHeadDuck.quack();
-		
-		
-		
+		redHeadDuck.display();
+
+		System.out.println();
+		System.out.println("----------------");
+		System.out.println();
+
+		FlyBehavior flyNoWay = new FlyNoWay();
+		ModelDuck modelDuck = new ModelDuck(flyNoWay,quack);
+		modelDuck.fly();
+		modelDuck.quack();
+		modelDuck.display();
 		
 	}
 }

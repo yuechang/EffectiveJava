@@ -33,6 +33,17 @@ package com.yc.pattern.strategy;
 */
 public class ModelDuck extends Duck {
 
+	private FlyBehavior flyBehavior;
+	private QuackBehavior quackBehavior;
+
+	public ModelDuck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
+		super.flyBehavior = flyBehavior;
+		super.quackBehavior = quackBehavior;
+	}
+
+	public ModelDuck() {
+	}
+
 	@Override
 	public void display() {
 		System.out.println("I'm a model duck");
