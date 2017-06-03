@@ -33,15 +33,12 @@ package com.yc.pattern.strategy;
 */
 public class ModelDuck extends Duck {
 
-	private FlyBehavior flyBehavior;
-	private QuackBehavior quackBehavior;
-
-	public ModelDuck(FlyBehavior flyBehavior, QuackBehavior quackBehavior) {
-		super.flyBehavior = flyBehavior;
-		super.quackBehavior = quackBehavior;
-	}
-
+    /**
+     * 不会飞，呱呱叫
+     */
 	public ModelDuck() {
+		super.flyBehavior = new FlyNoWay();
+		super.quackBehavior = new Quack();
 	}
 
 	@Override

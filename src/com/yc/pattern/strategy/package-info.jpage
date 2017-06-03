@@ -13,7 +13,7 @@
 
 
 3.对飞行行为的解释：
-    FlyWithWings用翅膀飞。
+    FlyWithWings：用翅膀飞。
     FlyNoWay：不会飞。
     FlyRocketPowered：使用火箭动力飞行（鸭子的飞行行为可以动态改变）。
 

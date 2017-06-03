@@ -34,23 +34,38 @@ package com.yc.pattern.strategy;
 public class Test {
 
 	public static void main(String[] args) {
-		
-		FlyBehavior flyWithWings = new FlyWithWings();
-		QuackBehavior quack = new Quack();
-		RedHeadDuck redHeadDuck = new RedHeadDuck(flyWithWings,quack);
-		redHeadDuck.fly();
-		redHeadDuck.quack();
-		redHeadDuck.display();
 
+		// 红头鸭
+		showDuckInfo(new RedHeadDuck());
+		showLine();
+
+		// 橡皮鸭
+		showDuckInfo(new RubberDuck());
+		showLine();
+
+		// 模型鸭
+		showDuckInfo(new ModelDuck());
+		showLine();
+
+		//诱饵鸭
+		showDuckInfo(new DecoyDuck());
+		showLine();
+
+		//野鸭
+		showDuckInfo(new MallardDuck());
+		showLine();
+	}
+
+
+	public static void showDuckInfo(Duck duck){
+		duck.fly();
+		duck.quack();
+		duck.display();
+	}
+
+	public static void showLine(){
 		System.out.println();
 		System.out.println("----------------");
 		System.out.println();
-
-		FlyBehavior flyNoWay = new FlyNoWay();
-		ModelDuck modelDuck = new ModelDuck(flyNoWay,quack);
-		modelDuck.fly();
-		modelDuck.quack();
-		modelDuck.display();
-		
 	}
 }
