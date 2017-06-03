@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.yc.pattern.strategy</OriginalElement>
+  <nodes>
+    <node x="144.0" y="444.0">com.yc.pattern.strategy.Quack</node>
+    <node x="171.0" y="219.0">com.yc.pattern.strategy.MallardDuck</node>
+    <node x="288.0" y="444.0">com.yc.pattern.strategy.MuteQuack</node>
+    <node x="122.0" y="645.0">com.yc.pattern.strategy.FlyRocketPowered</node>
+    <node x="216.0" y="341.0">com.yc.pattern.strategy.QuackBehavior</node>
+    <node x="140.0" y="542.0">com.yc.pattern.strategy.FlyBehavior</node>
+    <node x="317.5" y="0.0">com.yc.pattern.strategy.Duck</node>
+    <node x="0.0" y="743.0">com.yc.pattern.strategy.Test</node>
+    <node x="712.0" y="219.0">com.yc.pattern.strategy.DecoyDuck</node>
+    <node x="536.0" y="219.0">com.yc.pattern.strategy.RubberDuck</node>
+    <node x="349.0" y="219.0">com.yc.pattern.strategy.RedHeadDuck</node>
+    <node x="432.0" y="444.0">com.yc.pattern.strategy.Squeak</node>
+    <node x="280.0" y="645.0">com.yc.pattern.strategy.FlyWithWings</node>
+    <node x="0.0" y="645.0">com.yc.pattern.strategy.FlyNoWay</node>
+    <node x="0.0" y="219.0">com.yc.pattern.strategy.ModelDuck</node>
+    <node x="0.0" y="444.0">com.yc.pattern.strategy.FakeQuack</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.yc.pattern.strategy.DecoyDuck" target="com.yc.pattern.strategy.Duck">
+      <point x="0.0" y="-38.5" />
+      <point x="786.5" y="189.0" />
+      <point x="524.5" y="189.0" />
+      <point x="92.0" y="84.5" />
+    </edge>
+    <edge source="com.yc.pattern.strategy.RedHeadDuck" target="com.yc.pattern.strategy.Duck">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="com.yc.pattern.strategy.Quack" target="com.yc.pattern.strategy.QuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="206.0" y="424.0" />
+      <point x="262.5" y="424.0" />
+      <point x="-15.5" y="26.5" />
+    </edge>
+    <edge source="com.yc.pattern.strategy.FlyWithWings" target="com.yc.pattern.strategy.FlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="334.5" y="620.0" />
+      <point x="225.0" y="620.0" />
+      <point x="34.0" y="26.5" />
+    </edge>
+    <edge source="com.yc.pattern.strategy.MallardDuck" target="com.yc.pattern.strategy.Duck">
+      <point x="0.0" y="-38.5" />
+      <point x="250.0" y="199.0" />
+      <point x="386.5" y="199.0" />
+      <point x="-46.0" y="84.5" />
+    </edge>
+    <edge source="com.yc.pattern.strategy.FlyNoWay" target="com.yc.pattern.strategy.FlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="51.0" y="620.0" />
+      <point x="157.0" y="620.0" />
+      <point x="-34.0" y="26.5" />
+    </edge>
+    <edge source="com.yc.pattern.strategy.ModelDuck" target="com.yc.pattern.strategy.Duck">
+      <point x="0.0" y="-38.5" />
+      <point x="75.5" y="189.0" />
+      <point x="340.5" y="189.0" />
+      <point x="-92.0" y="84.5" />
+    </edge>
+    <edge source="com.yc.pattern.strategy.FakeQuack" target="com.yc.pattern.strategy.QuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="62.0" y="414.0" />
+      <point x="231.5" y="414.0" />
+      <point x="-46.5" y="26.5" />
+    </edge>
+    <edge source="com.yc.pattern.strategy.MuteQuack" target="com.yc.pattern.strategy.QuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="350.0" y="424.0" />
+      <point x="293.5" y="424.0" />
+      <point x="15.5" y="26.5" />
+    </edge>
+    <edge source="com.yc.pattern.strategy.FlyRocketPowered" target="com.yc.pattern.strategy.FlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.yc.pattern.strategy.RubberDuck" target="com.yc.pattern.strategy.Duck">
+      <point x="0.0" y="-38.5" />
+      <point x="614.0" y="199.0" />
+      <point x="478.5" y="199.0" />
+      <point x="46.0" y="84.5" />
+    </edge>
+    <edge source="com.yc.pattern.strategy.Squeak" target="com.yc.pattern.strategy.QuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="494.0" y="414.0" />
+      <point x="324.5" y="414.0" />
+      <point x="46.5" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="430.5" y="421.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
