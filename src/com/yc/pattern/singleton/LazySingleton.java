@@ -1,7 +1,7 @@
 package com.yc.pattern.singleton;
 
 /**
- * 懒汉式单例
+ * 懒汉式单例 (双重加锁检查) 
  * @author xyz327
  * @date 2017-06-05 12:43:39
  * @version 1.0
