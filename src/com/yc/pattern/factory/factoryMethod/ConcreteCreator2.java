@@ -2,7 +2,7 @@
  * Copyright(c) 2016 Yuechang
  * MIT Licensed
  */
-package com.yc.pattern.factoryMethod;
+package com.yc.pattern.factory.factoryMethod;
 
 /** 
  * @ClassName: ConcreteCreator2 

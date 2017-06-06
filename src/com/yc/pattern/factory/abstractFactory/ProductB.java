@@ -2,7 +2,7 @@
  * Copyright(c) 2016 Yuechang
  * MIT Licensed
  */
-package com.yc.pattern.abstractFactory;
+package com.yc.pattern.factory.abstractFactory;
 
 /** 
  * @ClassName: ProductB 

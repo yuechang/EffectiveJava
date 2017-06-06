@@ -2,16 +2,16 @@
  * Copyright(c) 2016 Yuechang
  * MIT Licensed
  */
-package com.yc.pattern.abstractFactory;
+package com.yc.pattern.factory.abstractFactory;
 
 /** 
- * @ClassName: ConcreteCreator1 
- * @Description: 具体工厂类ConcreteCreator1
+ * @ClassName: ConcreteCreator2 
+ * @Description: 具体工厂类ConcreteCreator2
  * @author yuechang yuechang@primeton.com 
- * @date 2016年3月17日 下午3:11:30 
+ * @date 2016年3月17日 下午3:15:09 
  *  
  */
-public class ConcreteCreator1 implements Creator {
+public class ConcreteCreator2 implements Creator {
 
 	/**
 	 * 
@@ -19,7 +19,7 @@ public class ConcreteCreator1 implements Creator {
 	 */
 	@Override
 	public ProductA factoryA() {
-		return new ProductA1();
+		return new ProductA2();
 	}
 
 	/**
@@ -28,7 +28,7 @@ public class ConcreteCreator1 implements Creator {
 	 */
 	@Override
 	public ProductB factoryB() {
-		return new ProductB1();
+		return new ProductB2();
 	}
 
 }

@@ -2,7 +2,7 @@
  * Copyright(c) 2016 Yuechang
  * MIT Licensed
  */
-package com.yc.pattern.simpleFactory;
+package com.yc.pattern.factory.simpleFactory;
 
 /**
  * @ClassName: Apple
