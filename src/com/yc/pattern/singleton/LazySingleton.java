@@ -7,7 +7,7 @@ package com.yc.pattern.singleton;
  * @version 1.0
  */
 public class LazySingleton {
-    private static LazySingleton instance = null;
+    private static volatile LazySingleton instance = null;
     private LazySingleton() {
     }
     public static final LazySingleton getInstacne(){
