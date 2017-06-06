@@ -31,7 +31,7 @@ package com.yc.pattern.strategy;
 * @date 2017年5月8日 下午5:11:31 
 * @since 1.0
 */
-public class Test {
+public class StrategyTest {
 
 	public static void main(String[] args) {
 
