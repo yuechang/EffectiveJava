@@ -7,7 +7,7 @@ package com.yc.pattern.factory.abstractFactory;
 /** 
  * @ClassName: Creator 
  * @Description: 抽象工厂类
- * @author yuechang yuechang@primeton.com 
+ * @author Yue Chang
  * @date 2016年3月17日 下午3:07:39 
  *  
  */

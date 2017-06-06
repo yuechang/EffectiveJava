@@ -7,7 +7,7 @@ package com.yc.pattern.factory.simpleFactory;
 /**
  * @ClassName: Grape
  * @Description: 葡萄类
- * @author yuechang yuechang@primeton.com
+ * @author Yue Chang
  * @date 2016年3月15日 下午10:39:00
  * 
  */

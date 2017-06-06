@@ -7,7 +7,7 @@ package com.yc.pattern.factory.simpleFactory;
 /**
  * @ClassName: Apple
  * @Description: 苹果类
- * @author yuechang yuechang@primeton.com
+ * @author Yue Chang
  * @date 2016年3月15日 下午10:28:48
  * 
  */

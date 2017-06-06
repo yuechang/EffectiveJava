@@ -7,7 +7,7 @@ package com.yc.pattern.builder;
 /**
  * @ClassName: NutritionFacts
  * @Description: 营养成分类-建造者设计模式
- * @author yuechang yuechang@primeton.com
+ * @author Yue Chang
  * @date 2016年3月10日 下午10:42:07
  * 
  */

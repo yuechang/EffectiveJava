@@ -7,7 +7,7 @@ package com.yc.pattern.factory.abstractFactory;
 /** 
  * @ClassName: ProductA2 
  * @Description: 具体产品类ProductA2
- * @author yuechang yuechang@primeton.com 
+ * @author Yue Chang
  * @date 2016年3月17日 下午3:18:00 
  *  
  */

@@ -15,7 +15,7 @@
  *              返还一个URLConnection对象。而URLConnection对象则代表一个与远程对象的连接。
  *              URLConnection则表示一个与远程对象的连接。URLConnection是所有的代表应用系统与一个URL的
  *              连接对象的超类，使用URLConnection对象可以针对一个URL进行读写操作。
- * @author yuechang yuechang@primeton.com
+ * @author Yue Chang
  * @date 2016年3月17日 上午10:53:10 @
  * 
  */

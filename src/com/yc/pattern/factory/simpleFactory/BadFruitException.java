@@ -7,7 +7,7 @@ package com.yc.pattern.factory.simpleFactory;
 /** 
  * @ClassName: BadFruitException 
  * @Description: 无货水果请求
- * @author yuechang yuechang@primeton.com 
+ * @author Yue Chang
  * @date 2016年3月15日 下午10:46:26 
  *  
  */

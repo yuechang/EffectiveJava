@@ -7,7 +7,7 @@ package com.yc.pattern.factory.abstractFactory;
 /** 
  * @ClassName: ConcreteCreator2 
  * @Description: 具体工厂类ConcreteCreator2
- * @author yuechang yuechang@primeton.com 
+ * @author Yue Chang
  * @date 2016年3月17日 下午3:15:09 
  *  
  */

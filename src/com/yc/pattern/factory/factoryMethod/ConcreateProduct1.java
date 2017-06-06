@@ -7,7 +7,7 @@ package com.yc.pattern.factory.factoryMethod;
 /** 
  * @ClassName: ConcreateProduct1 
  * @Description: TODO(这里用一句话描述这个类的作用) 
- * @author yuechang yuechang@primeton.com 
+ * @author Yue Chang
  * @date 2016年3月16日 下午10:47:46 
  *  
  */
