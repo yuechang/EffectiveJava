@@ -38,14 +38,21 @@ public abstract class CoffeineBeverage {
 		System.out.println("Boiling water");
 	}
 	
-	// 冲泡
-	abstract void brew();
-	
 	// 放入杯子
 	public void pourInCup(){
 		System.out.println("Pouring into cup");
 	}
+
+	// 冲泡
+	abstract void brew();
 	
 	// 加入调味品
 	abstract void addCondiments();
+
+	public void getCoffeineBeverage(){
+		boilWater();
+		pourInCup();
+		brew();
+		addCondiments();
+	}
 }
