@@ -1,14 +1,16 @@
 /*!
- * Copyright(c) 2016 Yuechang
+ * Copyright(c) 2016 Yue Chang
  * MIT Licensed
  */
 package com.yc.pattern.factory.abstractFactory;
 
+import com.yc.pattern.factory.simpleFactory.Strawberry;
+
 /**
- * @ClassName: ConcreteCreator1 
+ * @ClassName: ConcreteCreator1
  * @Description: 具体工厂类ConcreteCreator1
  * @author Yue Chang
- * @date 2016年3月17日 下午3:11:30 
+ * @date 2016年3月17日 下午3:11:30
  *  
  */
 public class ConcreteCreator1 implements Creator {

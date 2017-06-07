@@ -1,5 +1,5 @@
 /*
- * ! Copyright(c) 2016 Yuechang MIT Licensed
+ * ! Copyright(c) 2016 Yue Chang MIT Licensed
  */
 /**
  * @ClassName: package-info

@@ -1,5 +1,5 @@
 /*!
- * Copyright(c) 2016 Yuechang
+ * Copyright(c) 2016 Yue Chang
  * MIT Licensed
  */
 package com.yc.pattern.factory.abstractFactory;

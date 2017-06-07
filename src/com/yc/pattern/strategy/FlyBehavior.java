@@ -1,26 +1,6 @@
-/*
- * Copyright (c) 2016, 2025, HHLY and/or its affiliates. All rights reserved.
- * HHLY PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
+/*!
+ * Copyright(c) 2016 Yue Chang
+ * MIT Licensed
  */
 package com.yc.pattern.strategy;
 
