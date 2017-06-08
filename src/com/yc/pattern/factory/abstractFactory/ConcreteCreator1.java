@@ -4,8 +4,6 @@
  */
 package com.yc.pattern.factory.abstractFactory;
 
-import com.yc.pattern.factory.simpleFactory.Strawberry;
-
 /**
  * @ClassName: ConcreteCreator1
  * @Description: 具体工厂类ConcreteCreator1
