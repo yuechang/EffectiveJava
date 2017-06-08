@@ -1,4 +1,12 @@
 ### strategy pattern
+### 策略模式
+
+### 定义
+定义了算法族，分别封装起来，让它们之间可以互相替换，此模式让算法的变化独立于使用算法的客户。
+
+![策略模式](http://img.blog.csdn.net/20170604105446532?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveXVlY2hhbmc1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+### strategy pattern
 ### 说明：
 
 #### 1.对各种鸭子的解释：
@@ -44,3 +52,5 @@ public void performFly() {
 
 #### 8.类不仅可以表示具体的“东西”
 还可以用一个类来表示行为，FlyBehavior表示飞行行为，QuackBehavior表示呱呱叫行为。
+
+
