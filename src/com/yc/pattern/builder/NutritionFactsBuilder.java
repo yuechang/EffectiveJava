@@ -15,7 +15,6 @@ public class NutritionFactsBuilder extends AbstractNutritionFactsBuilder{
     private NutritionFacts nutritionFacts;
 
     public NutritionFactsBuilder(int servingSize, int servings) {
-
         this.nutritionFacts = new NutritionFacts(servingSize,servings);
     }
 

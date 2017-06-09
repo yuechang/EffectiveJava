@@ -12,10 +12,17 @@ package com.yc.pattern.builder;
  */
 public class BuilderTest {
 
-    public static void main(String[] args) {
-
-        NutritionFacts nutritionFacts = new NutritionFactsBuilder(240, 8).calories(100).sodium(35).carbohydrate(27).build();
+    public static void test(){
+        NutritionFacts nutritionFacts = new NutritionFactsBuilder(240, 8)
+                .calories(100)
+                .sodium(35)
+                .carbohydrate(27)
+                .build();
         CocaCola cocaCola = new CocaCola(nutritionFacts);
         System.out.println("cocaCola:"+cocaCola);
+    }
+
+    public static void main(String[] args) {
+        test();
     }
 }

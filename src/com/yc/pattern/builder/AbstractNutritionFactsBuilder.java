@@ -11,5 +11,15 @@ package com.yc.pattern.builder;
  * @date 2017/6/8 19:58
  */
 public abstract class AbstractNutritionFactsBuilder {
+
+
+    abstract NutritionFactsBuilder calories(int val);
+
+    abstract NutritionFactsBuilder fat(int val);
+
+    abstract NutritionFactsBuilder carbohydrate(int val);
+
+    abstract NutritionFactsBuilder sodium(int val);
+
     abstract NutritionFacts build();
 }
