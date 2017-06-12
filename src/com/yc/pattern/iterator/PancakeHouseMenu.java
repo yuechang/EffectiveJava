@@ -11,14 +11,14 @@ import java.util.List;
 /**
  * @author Yue Chang
  * @ClassName: PancakeHouseMenu
- * @Description: TODO
+ * @Description: 煎饼屋菜单类
  * @date 2017/6/10 16:03
  */
-public class PancakeHouseMenu {
+public class PancakeHouseMenu implements Menu {
 
     private List menuItems;
 
-    public PancakeHouseMenu(){
+    public PancakeHouseMenu() {
         menuItems = new ArrayList<MenuItem>();
 
         addItem("K&B's Pancake Breakfast",
@@ -39,18 +39,20 @@ public class PancakeHouseMenu {
                 3.59);
     }
 
-    public void addItem(String name,String description,boolean vegetation,double price){
+    public void addItem(String name, String description, boolean vegetation, double price) {
 
-        MenuItem menuItem = new MenuItem(name,description,vegetation,price);
+        MenuItem menuItem = new MenuItem(name, description, vegetation, price);
         menuItems.add(menuItem);
     }
 /*
+    // 不再使用
     public ArrayList getMenuItems(){
         return menuItems;
     }
 */
 
-    public Iterator createIterrator(){
-        return new PancakeHouseIterator(menuItems);
+    @Override
+    public Iterator createIterator() {
+        return menuItems.iterator();
     }
 }

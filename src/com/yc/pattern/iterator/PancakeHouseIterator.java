@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * @author Yue Chang
  * @ClassName: PancakeHouseIterator
- * @Description: TODO
+ * @Description: 煎饼屋迭代器类(Pancake直接使用List.iterator()方法之后，不再使用)
  * @date 2017/6/10 15:39
  */
 public class PancakeHouseIterator implements Iterator {

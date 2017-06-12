@@ -9,23 +9,25 @@ import java.util.Iterator;
 /**
  * @author Yue Chang
  * @ClassName: Waitress
- * @Description: TODO
+ * @Description: 服务员类
  * @date 2017/6/10 16:23
  */
 public class Waitress {
 
-    private PancakeHouseMenu pancakeHouseMenu;
-    private DinnerMenu dinnerMenu;
+    private Menu pancakeHouseMenu;
+    private Menu dinnerMenu;
 
-    public Waitress(PancakeHouseMenu pancakeHouseMenu,DinnerMenu dinnerMenu){
+    public Waitress(){}
+
+    public Waitress(Menu pancakeHouseMenu,Menu dinnerMenu){
         this.pancakeHouseMenu = pancakeHouseMenu;
         this.dinnerMenu = dinnerMenu;
     }
 
     public void printMune() {
 
-        Iterator pancakeIterator = pancakeHouseMenu.createIterrator();
-        Iterator dinnerIterator = dinnerMenu.createIterrator();
+        Iterator pancakeIterator = pancakeHouseMenu.createIterator();
+        Iterator dinnerIterator = dinnerMenu.createIterator();
 
         System.out.println("MENU\n------\nBREAKFAST");
         printMenu(pancakeIterator);
@@ -33,7 +35,7 @@ public class Waitress {
         printMenu(dinnerIterator);
     }
 
-    private void printMenu(Iterator iterator) {
+    public void printMenu(Iterator iterator) {
 
         while (iterator.hasNext()){
             MenuItem menuItem = (MenuItem) iterator.next();
