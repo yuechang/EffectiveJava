@@ -18,6 +18,8 @@ public class DinnerMenu {
     int numberOfItems = 0;
     private MenuItem[] menuItems;
 
+
+
     public DinnerMenu(){
 
         menuItems = new MenuItem[MAX_ITEMS];
