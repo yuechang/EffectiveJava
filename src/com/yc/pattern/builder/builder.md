@@ -1,6 +1,5 @@
 ## builder pattern
 ## 建造者模式
-> [建造者模式](http://note.youdao.com/)
 
 
 ### 定义
