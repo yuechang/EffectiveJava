@@ -4,8 +4,6 @@
  */
 package com.yc.pattern.iterator;
 
-import java.util.Iterator;
-
 /**
  * @author Yue Chang
  * @ClassName: MenuTestDrive
