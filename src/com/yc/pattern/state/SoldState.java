@@ -41,9 +41,10 @@ public class SoldState implements State {
         if(count > 0){
             gumballMachine.setState(gumballMachine.getNoQuarterState());
             System.out.println("糖果发放成功！");
+            System.out.println();
+        } else{
+            gumballMachine.setState(gumballMachine.getSoldOutState());
+            System.out.println("没有糖果了...");
         }
-        gumballMachine.setState(gumballMachine.getSoldOutState());
-        System.out.println("没有糖果了...");
-
     }
 }

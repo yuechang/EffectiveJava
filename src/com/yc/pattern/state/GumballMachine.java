@@ -26,7 +26,8 @@ public class GumballMachine {
         soldOutState = new SoldOutState(this);
         noQuarterState = new NoQuarterState(this);
         hasQuarterState = new HasQuarterState(this);
-        soldOutState = new SoldOutState(this);
+        soldState = new SoldState(this);
+        winnerState = new WinnerState(this);
         if(count > 0){
             state = noQuarterState;
         }
@@ -126,12 +127,7 @@ public class GumballMachine {
     @Override
     public String toString() {
         return "GumballMachine{" +
-                "soldOutState=" + soldOutState +
-                ", noQuarterState=" + noQuarterState +
-                ", hasQuarterState=" + hasQuarterState +
-                ", soldState=" + soldState +
-                ", state=" + state +
-                ", count=" + count +
+                " Inventory = " + count + " gumballs" +
                 '}';
     }
 }

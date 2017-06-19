@@ -36,6 +36,7 @@ public class WinnerState implements State {
     @Override
     public void dispense() {
 
+        gumballMachine.releseBall();
         System.out.println("你赢得了另外一颗糖！");
         if (gumballMachine.getCount() == 0 ){
             gumballMachine.setState(gumballMachine.getSoldOutState());
