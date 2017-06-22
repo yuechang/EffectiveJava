@@ -8,6 +8,7 @@
 
 ![状态模式](https://github.com/yuechang/picture/blob/master/desginpattern/state-pattern.png)
 
+### 策略模式与模板模式区别
 策略模式与状态模式类图是一样的，但是这两个模式的差别在于它们的"意图"。
 
 以状态模式而言，我们将一群行为封装在状态对象中，context的行为随时可委托到那些状态对象中的一个。随着时间的流逝，当前状态在状态对象集合中游走改变，以反映出context内部的状态，因此，context的行为也会跟着改变。但是context的客户对于状态对象了解不多，甚至根本浑然不知。
