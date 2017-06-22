@@ -28,7 +28,7 @@
 - 中介者模式 Mediator
 - 备忘录模式 Memento
 - 解释器模式 Interpreter
-- 状态模式 State
+- [状态模式 State](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/state/state.md#state-pattern)
 - [策略模式 Strategy](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/strategy/strategy.md)
 - 责任链模式 Chain of Responsibility
 - 访问者模式 Visitor
