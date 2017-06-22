@@ -47,4 +47,9 @@ public class SoldState implements State {
             System.out.println("没有糖果了...");
         }
     }
+
+    @Override
+    public void refill(int count) {
+        System.out.println("糖果未售罄，不需填充");
+    }
 }

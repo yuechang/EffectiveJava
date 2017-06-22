@@ -7,7 +7,7 @@ package com.yc.pattern.state;
 /**
  * @author Yue Chang
  * @ClassName: GumballMachineTestDrive
- * @Description: TODO
+ * @Description: 万能糖果机测试类
  * @date 2017/6/19 19:56
  */
 public class GumballMachineTestDrive {

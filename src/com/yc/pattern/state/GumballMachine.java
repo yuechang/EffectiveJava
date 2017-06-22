@@ -7,7 +7,7 @@ package com.yc.pattern.state;
 /**
  * @author Yue Chang
  * @ClassName: GumballMachine
- * @Description: TODO
+ * @Description: 万能糖果机
  * @date 2017/6/19 11:38
  */
 public class GumballMachine {

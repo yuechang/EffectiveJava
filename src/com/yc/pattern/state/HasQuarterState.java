@@ -47,4 +47,9 @@ public class HasQuarterState implements State {
     public void dispense() {
         System.out.println("没有其他糖果机可操作");
     }
+
+    @Override
+    public void refill(int count) {
+        System.out.println("糖果未售罄，不需填充");
+    }
 }

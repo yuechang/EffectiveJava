@@ -19,4 +19,6 @@ public interface State {
     void turnCrank();
     // 发放糖果
     void dispense();
+    // 填充糖果
+    void refill(int count);
 }

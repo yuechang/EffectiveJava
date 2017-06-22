@@ -37,4 +37,12 @@ public class SoldOutState implements State{
     public void dispense() {
         System.out.println("糖果售罄，不能售出糖果");
     }
+
+    @Override
+    public void refill(int count) {
+
+        this.gumballMachine.setCount(count);
+        this.gumballMachine.setState(gumballMachine.getNoQuarterState());
+        System.out.println("糖果机填充成功");
+    }
 }

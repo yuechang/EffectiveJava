@@ -7,7 +7,7 @@ package com.yc.pattern.state;
 /**
  * @author Yue Chang
  * @ClassName: WinnerState
- * @Description: TODO
+ * @Description: 赢家状态类
  * @date 2017/6/19 19:22
  */
 public class WinnerState implements State {
@@ -49,6 +49,10 @@ public class WinnerState implements State {
                 System.out.println("没有糖果了...");
             }
         }
+    }
 
+    @Override
+    public void refill(int count) {
+        System.out.println("糖果未售罄，不需填充");
     }
 }

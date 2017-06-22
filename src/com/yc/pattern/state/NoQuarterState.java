@@ -38,4 +38,9 @@ public class NoQuarterState implements State{
     public void dispense() {
         System.out.println("你需要先付款");
     }
+
+    @Override
+    public void refill(int count) {
+        System.out.println("糖果未售罄，不需填充");
+    }
 }
