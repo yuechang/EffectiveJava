@@ -2,7 +2,7 @@
  * Copyright(c) 2017 Yue Chang
  * MIT Licensed
  */
-package com.yc.pattern.component;
+package com.yc.pattern.composite;
 
 import java.util.Iterator;
 
