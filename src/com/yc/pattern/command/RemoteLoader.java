@@ -16,7 +16,41 @@ public class RemoteLoader {
 
         //remoteLoaderTest();
 
-        remoteLoaderWithUndoTest();
+        //remoteLoaderWithUndoTest();
+
+        remoteLoaderCeilingFanTest();
+    }
+
+    /**
+     * 测试吊扇功能
+     */
+    private static void remoteLoaderCeilingFanTest() {
+
+        RemoteControlWithUndo remoteControl = new RemoteControlWithUndo();
+
+        CeilingFan ceilingFan = new CeilingFan("卧室");
+        CeilingFanHighCommand ceilingFanHighCommand = new CeilingFanHighCommand(ceilingFan);
+        CeilingFanMediumCommand ceilingFanMediumCommand = new CeilingFanMediumCommand(ceilingFan);
+        CeilingFanLowCommand ceilingFanLowCommand = new CeilingFanLowCommand(ceilingFan);
+        CeilingOffCommand ceilingFanOffCommand = new CeilingOffCommand(ceilingFan);
+
+        remoteControl.setCommand(0,ceilingFanLowCommand,ceilingFanOffCommand);
+        remoteControl.setCommand(1,ceilingFanMediumCommand,ceilingFanOffCommand);
+        remoteControl.setCommand(2,ceilingFanHighCommand,ceilingFanOffCommand);
+
+        remoteControl.onButtonWasPushed(0);
+        remoteControl.offButtonWasPushed(0);
+        System.out.println(remoteControl);
+        remoteControl.undoButtonWasPushed(0);
+
+        remoteControl.onButtonWasPushed(1);
+        System.out.println(remoteControl);
+        remoteControl.undoButtonWasPushed(1);
+
+        remoteControl.onButtonWasPushed(2);
+        System.out.println(remoteControl);
+        remoteControl.undoButtonWasPushed(2);
+
     }
 
     /**
