@@ -3,7 +3,7 @@
 
 #### 创建型设计模式
 创建型模式设计到将对象实例化，这类模式都提供了一个方法，将客户从所需要的实例化对象中解耦。
-- 单例模式 Singleton
+- [单例模式 Singleton](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/singleton/singleton.md#singleton-pattern)
 - 抽象工厂模式 Abstract Factory
 - [建造者模式 Builder](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/builder/builder.md#builder-pattern)
 - 工厂模式 Factory
