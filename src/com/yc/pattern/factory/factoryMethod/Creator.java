@@ -6,7 +6,7 @@ package com.yc.pattern.factory.factoryMethod;
 
 /**
  * @ClassName: Creator
- * @Description: 抽象工厂角色
+ * @Description: 工厂对象
  * @author Yue Chang
  * @date 2016年3月16日 下午10:43:11
  * 

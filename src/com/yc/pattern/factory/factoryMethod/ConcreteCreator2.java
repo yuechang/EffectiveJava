@@ -6,7 +6,7 @@ package com.yc.pattern.factory.factoryMethod;
 
 /** 
  * @ClassName: ConcreteCreator2 
- * @Description: TODO(这里用一句话描述这个类的作用) 
+ * @Description: 实际的产品2创建者
  * @author Yue Chang
  * @date 2016年3月16日 下午10:50:35 
  *  

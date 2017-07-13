@@ -6,7 +6,7 @@ package com.yc.pattern.factory.factoryMethod;
 
 /**
  * @ClassName: ConcreteCreator1
- * @Description: TODO(这里用一句话描述这个类的作用)
+ * @Description: 实际的产品1创建者
  * @author Yue Chang
  * @date 2016年3月16日 下午10:46:18
  * 
@@ -18,7 +18,7 @@ public class ConcreteCreator1 implements Creator {
 	 */
 	@Override
 	public Product factory() {
-		return new ConcreateProduct1();
+		return new ConcreteProduct1();
 	}
 
 }

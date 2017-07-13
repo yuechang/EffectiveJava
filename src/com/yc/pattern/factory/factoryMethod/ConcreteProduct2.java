@@ -6,7 +6,7 @@ package com.yc.pattern.factory.factoryMethod;
 
 /** 
  * @ClassName: ConcreteProduct 
- * @Description: TODO(这里用一句话描述这个类的作用) 
+ * @Description: 实际产品2
  * @author Yue Chang
  * @date 2016年3月16日 下午10:51:53 
  *  
