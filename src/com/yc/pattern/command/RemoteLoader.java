@@ -14,11 +14,48 @@ public class RemoteLoader {
 
     public static void main(String[] args) {
 
-        //remoteLoaderTest();
+        // remoteLoaderTest();
 
-        //remoteLoaderWithUndoTest();
+        // remoteLoaderWithUndoTest();
 
-        remoteLoaderCeilingFanTest();
+        // remoteLoaderCeilingFanTest();
+
+        macroCommandTest();
+    }
+
+    /**
+     * 宏命令测试
+     */
+    private static void macroCommandTest() {
+
+        RemoteControlWithUndo remoteControl = new RemoteControlWithUndo();
+        // 创建所有的装置
+        Light light = new Light("卧室");
+        Stereo stereo = new Stereo("卧室");
+
+        // 所有On命令
+        LightOnCommand lightOnCommand = new LightOnCommand(light);
+        StereoOnCommand stereoOnCommand = new StereoOnCommand(stereo);
+
+        // 所有Off命令
+        LightOffCommand lightOffCommand = new LightOffCommand(light);
+        StereoOffCommand stereoOffCommand = new StereoOffCommand(stereo);
+
+        // 开启和关闭数据记录对应的命令
+        Command[] partyOn = {lightOnCommand,stereoOnCommand};
+        Command[] partyOff = {lightOffCommand,stereoOffCommand};
+
+        MacroCommand partyOnMarco = new MacroCommand(partyOn);
+        MacroCommand partyOffMarco = new MacroCommand(partyOff);
+
+        remoteControl.setCommand(0,partyOnMarco,partyOffMarco);
+
+        System.out.println(remoteControl);
+        System.out.println("------- 按下打开聚会键 -----");
+        remoteControl.onButtonWasPushed(0);
+        System.out.println("------- 按下关闭聚会键 -----");
+        remoteControl.offButtonWasPushed(0);
+
     }
 
     /**
