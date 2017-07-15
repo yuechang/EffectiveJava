@@ -23,11 +23,13 @@ public class SimpleFactoryTest {
 			fruit.plant();
 			fruit.grow();
 			fruit.harvest();
+			System.out.println();
 			
 			fruit = FruitGardener.factory("grape");
 			fruit.plant();
 			fruit.grow();
 			fruit.harvest();
+			System.out.println();
 			
 			fruit = FruitGardener.factory("strawberry");
 			fruit.plant();
