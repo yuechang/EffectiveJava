@@ -20,7 +20,7 @@ public abstract class Beverage {
     public static final String VENTI_SIZE = "venti";
 
     // 默认为小杯
-    protected String size;
+    private String size;
 
     public String getDescription() {
         return "未知饮料";
@@ -36,13 +36,14 @@ public abstract class Beverage {
 
     public abstract double cost();
 
+
     @Override
     public String toString() {
 
         String sizeStr = null;
-        if(GRANDE_SIZE.equals(getSize())){
+        if (GRANDE_SIZE.equals(getSize())) {
             sizeStr = "中杯";
-        } else if(VENTI_SIZE.equals(getSize())){
+        } else if (VENTI_SIZE.equals(getSize())) {
             sizeStr = "大杯";
         } else {
             sizeStr = "小杯";

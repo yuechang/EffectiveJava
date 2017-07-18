@@ -14,6 +14,11 @@ public class Soy extends CondimentDecorator {
 
     private Beverage beverage;
 
+    @Override
+    public String getSize() {
+        return beverage.getSize();
+    }
+
     public Soy(Beverage beverage) {
         this.beverage = beverage;
     }
@@ -27,6 +32,7 @@ public class Soy extends CondimentDecorator {
     public double cost() {
 
         double cost = 0;
+        //System.out.println("豆浆 className:"+beverage.getClass().getName() + ",size:" + beverage.getSize());
         String beverageSize = beverage.getSize();
         if(VENTI_SIZE.equals(beverageSize)){
             cost = 0.25;
@@ -37,5 +43,4 @@ public class Soy extends CondimentDecorator {
         }
         return cost + beverage.cost();
     }
-
 }

@@ -15,6 +15,11 @@ public class Mocha extends CondimentDecorator{
     // 用一个实例变量记录饮料，也就是被装饰者
     Beverage beverage;
 
+    @Override
+    public String getSize() {
+        return beverage.getSize();
+    }
+
     // 想办法让被装饰者(饮料)被记录到实例变量中。
     // 这里的做法是：把饮料当做构造器的参数，
     // 再由构造器将此饮料记录在实例变量中。
@@ -35,6 +40,7 @@ public class Mocha extends CondimentDecorator{
         double cost = 0;
 
         String beverageSize = beverage.getSize();
+        // System.out.println("摩卡 className:"+beverage.getClass().getName() + ",beverageSize:" + beverageSize );
         if(VENTI_SIZE.equals(beverageSize)){
             cost = 0.3;
         } else if(GRANDE_SIZE.equals(beverageSize)){

@@ -14,6 +14,11 @@ public class Whip extends CondimentDecorator {
 
     private Beverage beverage;
 
+    @Override
+    public String getSize() {
+        return beverage.getSize();
+    }
+
     public Whip(Beverage beverage) {
         this.beverage = beverage;
     }
@@ -26,6 +31,7 @@ public class Whip extends CondimentDecorator {
     @Override
     public double cost() {
         double cost = 0;
+        //System.out.println("奶泡 className:" + beverage.getClass().getName() + ",size:" + beverage.getSize());
         String beverageSize = beverage.getSize();
         if(VENTI_SIZE.equals(beverageSize)){
             cost = 0.2;

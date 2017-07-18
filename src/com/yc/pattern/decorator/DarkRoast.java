@@ -17,8 +17,6 @@ public class DarkRoast extends Beverage {
         return "焦炒咖啡";
     }
 
-
-
     @Override
     public double cost() {
         return 0.99;
