@@ -8,6 +8,10 @@
 
 ![工厂方法模式](https://github.com/yuechang/picture/blob/master/desginpattern/decorator-pattern.png)
 
+- Component每个组件都可以单独使用，或者被装饰者包起来使用。
+- ConcrteComponent是我们将要动态加上新行为的对象，它拓展子Component
+- 每个装饰者都"有一个"组件，也就是说，装饰者有一个实例变量以保存某个Component的引用。共同实现了一些接口
+- ConcreteDecorator有一个实例变量，可以记录所装饰的事物，同时可以扩展Component的状态
 
 ### 要点
 - 继承属于扩展形式之一，但不见得是达到弹性设计的最佳方案
