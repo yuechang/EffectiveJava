@@ -6,7 +6,7 @@
 - [单例模式 Singleton](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/singleton/singleton.md#singleton-pattern)
 - 抽象工厂模式 Abstract Factory
 - [建造者模式 Builder](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/builder/builder.md#builder-pattern)
-- 工厂模式 Factory
+- [工厂模式 Factory](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/factory/factoryMethod/factory-method.md#factory-method-pattern)
 - 原型模式 Prototype
 
 #### 结构型设计模式
