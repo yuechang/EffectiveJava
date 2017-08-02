@@ -10,9 +10,10 @@
 ![工厂方法模式](https://github.com/yuechang/picture/blob/master/desginpattern/observer-pattern.png)
 
 
-
 - Subject：这个是主题接口，对象使用此接口注册为观察者，或者把自己从观察者中删除。每个主题可以有许多观察者
 - Observer：所有潜在的观察者必须实现观察者接口，这个接口只有update()一个方法，当主题状态改变时它被调用
+- ConcreteSubject:一个具体主题是现实主题接口，除了注册和撤销方法之外，具体主题实现了notifyObservers()方法，此方法用于在状态改变时更新所有的当前观察者。另外，具体主题也可能有设置或获取状态的方法
+- 具体的观察者可以是实现此接口的任意类。观察者必须注册具体主题，以便接收更新
 
 
 ### 要点
