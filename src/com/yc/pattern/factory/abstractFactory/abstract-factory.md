@@ -4,11 +4,14 @@
 ### 定义
 提供一个接口，用户创建相关或者依赖对象的家族，而不需要明确指定具体类。
 
-
 ### UML图
 
 ![工厂方法模式](https://github.com/yuechang/picture/blob/master/desginpattern/abstract-factory-pattern.png)
 
+- AbstractFactory：抽象工厂定义了一个接口，所有的具体工厂都必须实现此接口，这个接口包括一组方法用来生产产品。
+- ConcreteFactoryXxx：这个具体工厂实现不同的产品家族。要创建一个产品，客户只要使用其中一个工厂不需实例化任何产品对象。
+- AbstractProductXxx：这就是产品家族，每个具体工厂都能够生产一整组的产品。
+- Client：客户的代码中只需涉及抽象工厂，运行时将自动使用实际的工厂。
 
 ### 要点
 - 所有的工厂都是用来封装对象的创建
