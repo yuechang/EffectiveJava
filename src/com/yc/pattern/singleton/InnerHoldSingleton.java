@@ -8,7 +8,7 @@ package com.yc.pattern.singleton;
  */
 public class InnerHoldSingleton {
     private static class InstanceHolder {
-        private static InnerHoldSingleton instance = new InnerHoldSingleton();
+        private final static InnerHoldSingleton instance = new InnerHoldSingleton();
     }
     private InnerHoldSingleton(){
     }
