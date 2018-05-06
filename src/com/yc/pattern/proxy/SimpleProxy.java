@@ -21,10 +21,19 @@ import java.util.Vector;
 public class SimpleProxy implements InvocationHandler{
     private Object proxyObject;
 
+    /**
+     * 构造子
+     * @param proxyObject
+     */
     public SimpleProxy(Object proxyObject) {
         this.proxyObject = proxyObject;
     }
 
+    /**
+     * 静态工厂
+     * @param object
+     * @return
+     */
     public static Object factory(Object object){
 
         return Proxy.newProxyInstance(object.getClass().getClassLoader(),
