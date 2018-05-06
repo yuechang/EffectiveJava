@@ -17,7 +17,7 @@
 - [组合模式 Composite](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/composite/composite.md#composite-pattern)
 - 外观模式 Facade
 - 享元模式 Flyweight
-- 代理模式 Proxy
+- [代理模式 Proxy](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/proxy/proxy.md#proxy-pattern)
 
 #### 行为型设计模式
 行为型模式都涉及到类和对象如何交互及分配职责。
