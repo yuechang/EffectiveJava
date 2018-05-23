@@ -22,7 +22,7 @@
 #### 行为型设计模式
 行为型模式都涉及到类和对象如何交互及分配职责。
 - [模板方法模式 Template Method](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/template/template.md#template-pattern)
-- [命令模式 Command](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/iterator/iterator.md#command-pattern)
+- [命令模式 Command](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/command/command.md#command-pattern)
 - [迭代器模式 Iterator](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/iterator/iterator.md#iterator-pattern)
 - [观察者模式 Observer](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/observer/observer.md#observer-pattern)
 - 中介者模式 Mediator
