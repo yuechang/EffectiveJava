@@ -13,7 +13,7 @@
 结构型模式可以让你把类或者对象组合到更大的结构中。
 - [适配器模式 Adapter](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/adapter/adapter.md#adapter-pattern)
 - 桥接模式 Bridge
-- 装饰模式 Decorator
+- [装饰模式 Decorator](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/decorator/decorator.md#decorator-pattern)
 - [组合模式 Composite](https://github.com/yuechang/designPatterns/blob/master/src/com/yc/pattern/composite/composite.md#composite-pattern)
 - 外观模式 Facade
 - 享元模式 Flyweight
